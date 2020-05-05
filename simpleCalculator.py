@@ -7,3 +7,9 @@ while True:
     print("Enter 'multiply' to multiply two numbers")
     print("Enter 'divide' to divide two numbers")
     print("Enter 'quit' to end the program")
+    
+    user_input = input(": ")
+    
+    if user_input == "quit":
+        break
+    
